@@ -1,4 +1,4 @@
-![alt text](image.jpg)
+![](/image/nba_logo.png)
 # NBA players salary prediction: Overview
 - Built a model that can predict NBA players salaries based on their performances in the last season.
 - Web scraped all the players stats from a website called Basketball-Reference
