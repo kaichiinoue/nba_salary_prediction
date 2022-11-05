@@ -37,6 +37,7 @@ As a stat for each player, we got the following:
 - TOV (Turnovers)
 - PF (Personal Fouls)
 - PTS (Points)
+- Salary
 ## Data Cleaning
 
 ## EDA
