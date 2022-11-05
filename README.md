@@ -1,7 +1,7 @@
 ![](/image/nba_logo.png)
 # NBA players salary prediction: Overview
 - Built a model that can predict NBA players salaries based on their performances in the last season.
-- Web scraped all the players stats from a website called Basketball-Reference
+- Web scraped all the players stats from a website called [Basketball-Reference](https://www.basketball-reference.com/) and [HOOPSHYPE](https://hoopshype.com/salaries/players/2020-2021/)
 
 ## motivation
 There are some superstarts in NBA who earn crazy amount of money every year. As a huge basketball fan, I got to think whether their performances from the last season is the pure factors that determine their salary of the next season. 
