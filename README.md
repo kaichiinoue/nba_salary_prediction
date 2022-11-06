@@ -39,7 +39,7 @@ As a stat for each player, we got the following:
 - PTS (Points)
 - Salary
 ## Data Cleaning
-hello
+
 
 ## EDA
 
