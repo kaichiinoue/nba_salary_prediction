@@ -42,6 +42,9 @@ As a stat for each player, we got the following:
 
 
 ## EDA
+![](/image/graph1.png)
+![](/image/graph2.png)
+
 
 ## Model
 
