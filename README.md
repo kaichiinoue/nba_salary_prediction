@@ -6,10 +6,10 @@
 ## jump to each jupyter notebook
 - web scraping
 - data cleaning
-- [eda](http://localhost:8888/notebooks/Documents/coding/Projects/nba_salary_prediction/eda.ipynb)
+- [eda](https://github.com/kaichiinoue/nba_salary_prediction/blob/main/eda.ipynb)
 - model building
 ## motivation
-There are some superstarts in NBA who earn crazy amount of money every year. As a huge basketball fan, I got to think whether their performances from the last season is the pure factors that determine their salary of the next season. 
+There are some superstarts in NBA who earn crazy amount of money every year. As a huge basketball fan, I got to think whether their performances are pure factors that determine their salary. If I train a model only based on their stats, would that model be able to accurately predict another player's salary? 
 
 ## Web Scraping
 Webscraped all the palyers data from a website called [Basketball-Reference](https://www.basketball-reference.com/), a site that has all data of professional basketball including not only NBA but also G League and WNBA. For salary information, there was a problem with getting salary data from Basketball Reference, so I used another website called [HOOPSHYPE](https://hoopshype.com/salaries/players/2020-2021/) to get salary data for every player.
