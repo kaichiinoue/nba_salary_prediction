@@ -60,6 +60,7 @@ Before doing some EDA, I needed to do some data cleaning. To-Dos are the followi
 Looked at the distribution of the data and the value counts for most of the categorical variables. Also, checked the correlation value for each continuous variables and figured out most of the variables from players stats are heavily correlated each other. However, this is my first project, so I decided to just go with all the variables included for the model building process. Below are the some of the graphs from EDA.
 ![](/image/graph1.png)
 ![](/image/graph2.png)
+![](/image/graph3_defaultsize.png)
 
 ## Model
 As the first thing to do, I transformed categorical variables such as Pos(Position) and Tm(Team) into dummy variables. After that, I split the dataset into test set and training set. I set the portion of test set to be 20% and training set to be 80%.
