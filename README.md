@@ -57,11 +57,22 @@ Before doing some EDA, I needed to do some data cleaning. To-Dos are the followi
 - get rid of comma from Salary column
 
 ## EDA
-Looked at the distribution of the data and the value counts for most of the categorical variables. Also, checked the correlation value for each continuous variables and figured out most of the variables from players stats are heavily correlated each other. However, this is my first project, so I decided to just go with all the variables included for the model building process.
+Looked at the distribution of the data and the value counts for most of the categorical variables. Also, checked the correlation value for each continuous variables and figured out most of the variables from players stats are heavily correlated each other. However, this is my first project, so I decided to just go with all the variables included for the model building process. Below are the some of the graphs from EDA.
 ![](/image/graph1.png)
 ![](/image/graph2.png)
 
-
 ## Model
+As the first thing to do, I transformed categorical variables such as Pos(Position) and Tm(Team) into dummy variables. After that, I split the dataset into test set and training set. I set the portion of test set to be 20% and training set to be 80%.
+
+For the models, I tried four different kinds of models: sklearn Multiple Liear Regression, Lasso Regression, Ridge Regression, Random Forest. I chose R-squared to evaluate each model performance. 
+- **Multiple Linear Regression** - Baseline model
+- **Lasso** - I thought Lasso would be a good model for this case because most of the continuous variables have skewed distribution. However, the optimal alpha value never diverges, so I decided not to include Lasso this time.
+- **Ridge** - I am not too familiar with Lasso and Ridge so I wanted to also include this model here.
+- **Random Forest** - I used GridSearchCV to get the best combination of hyper parameters, but somehow the default parameters gave me the best accuracy.
 
 ## Model Performance
+The Random Forest with default hyper parameters outperformed other models on the test set. As evaluation metrics, I used R-squared.
+- **Multiple Linear Regression**: R<sup>2</sup> = 0.479
+- **Ridge**: R<sup>2</sup> = 0.534
+- **Random Forest (default)**: R<sup>2</sup> = 0.770
+- **Random Forest (best params)**: R<sup>2</sup> = 0.765
